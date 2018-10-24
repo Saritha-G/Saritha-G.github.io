@@ -1,0 +1,30 @@
+body{
+	margin: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+h1{
+	font-family: fantasy;
+	font-size: 40px;
+	border-bottom: 2px solid red;
+	width:300px;
+	text-align: center;
+	border-right: 2px solid red;
+	box-shadow: 5px 5px 8px #888888;
+	margin-top: 10px;
+}
+img{
+	height: 300px;
+	width: 400px;
+	margin: 10px;
+	transition: all 4s;
+}
+
+img:hover{
+	transform: scale(1.1);
+	/*animation: pulse 2s infinite;*/
+}
